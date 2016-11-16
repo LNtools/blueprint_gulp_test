@@ -1,0 +1,11 @@
+#!/bin/bash
+
+BUILD_COMMAND="gulp build"
+INPUT_DATA=$(</dev/stdin)
+SAVE_DATA_TO=webapp/data/lntools_data.json
+
+echo "Saving autotune data to $SAVE_DATA_TO"
+mkdir -p `dirname $SAVE_DATA_TO`
+echo "$INPUT_DATA" > $SAVE_DATA_TO
+
+$BUILD_COMMAND
