@@ -1,9 +1,10 @@
 {
-  "name": "Carousel blueprint",
+  "name": "blueprin con gulp",
   "description": "Blueprint for creating a bootstrap carousel.",
   "instructions": "### Instructions\n Add as many images and captions as needed.",
   "type": "app",
   "tags": ["Example"],
+  "slug": "blueprint_con_gulp",
   "thumbnail": "thumbnail.jpg",
   "authors": ["Kavya Sukumar <kavya.sukumar@voxmedia.com>"],
   "form": {
@@ -25,7 +26,7 @@
               },
               "caption": {
                 "title": "Caption (optional)",
-                "type": "string"
+                "tye": "string"
               }
             }
           }
