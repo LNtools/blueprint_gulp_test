@@ -1,6 +1,6 @@
 #!/bin/bash
 
-BUILD_COMMAND="gulp build"
+BUILD_COMMAND="bower install && gulp build"
 INPUT_DATA=$(</dev/stdin)
 SAVE_DATA_TO=webapp/data/lntools_data.json
 
