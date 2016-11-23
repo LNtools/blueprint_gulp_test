@@ -1,8 +1,8 @@
 /** global configs */
 
 var conf = {
-        app_cwd:'webapp/',
-        opt_requirejs:'webapp/opt-requirejs',
+        app_cwd:'source/',
+        opt_requirejs:'source/opt-requirejs',
         dest:'build/',
         commit: Math.floor(Date.now() / 1000)
     };
